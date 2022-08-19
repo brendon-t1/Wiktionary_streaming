@@ -90,7 +90,7 @@ with codecs.open(pathArticles, "w", ENCODING) as articlesFH, \
 
                 if totalCount > 1 and (totalCount % 100000) == 0:
                     print("{:,}".format(totalCount))
-
+                    
             elem.clear()
 
 elapsed_time = time.time() - start_time
